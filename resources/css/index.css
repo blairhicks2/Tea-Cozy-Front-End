@@ -59,3 +59,22 @@
 .hero-text h2 {
     font-size: 30px;
 }
+
+/* Tea of the Month */
+.tea-of-the-month {
+    display: flex;
+    flex-direction: column;
+    width: 1000px;
+    margin: auto;
+}
+
+.tea-of-the-month h2 {
+    font-size: 30px;
+    margin: 0;
+    margin-top: 60px;
+}
+
+.tea-of-the-month h4 {
+    margin: 0;
+    margin-top: 1em;
+}
