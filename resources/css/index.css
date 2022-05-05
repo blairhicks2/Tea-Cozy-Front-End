@@ -41,7 +41,10 @@
 
 .hero {
     background-image: url("../images/img-mission-background.jpg");
-    width: 1200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-width: 400px;
     height: 700px;
     display: flex;
     flex-direction: column;
@@ -77,4 +80,92 @@
 .tea-of-the-month h4 {
     margin: 0;
     margin-top: 1em;
+}
+
+.tea-card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.tea-card {
+    margin-top: 20px;
+}
+
+.tea-card img {
+    height: 200px;
+    width: 300px;
+    margin: 10px 10px 0 10px;
+}
+
+.tea-card p {
+    margin: 10px 0 0 0;
+}
+
+
+/* LOCATIONS */
+.locations {
+    background-image: url("../images/img-locations-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.locations h2 {
+    font-size: 30px;
+    background-color: transparent;
+}
+
+.location-container{
+    display: flex;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.location-card {
+    width: 300px;
+    margin-right: 20px;
+    margin-left: 20px;
+    opacity: 1;
+}
+
+.location-card h3 {
+    font-size: 26px;
+}
+
+.location-card p {
+    padding: 10px;
+}
+
+/* CONTACT */
+.contact {
+    height: 200 px;
+}
+
+.contact h2 {
+    font-size: 30px;
+    margin-top: 10px;
+    margin-bottom: 50px;
+}
+
+.contact h5 {
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    margin-top: 80px;
+    margin-left: 10px;
+}
+
+footer p{
+    text-align: left;
+    font-size: 16px;
 }
